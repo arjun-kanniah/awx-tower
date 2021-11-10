@@ -75,9 +75,9 @@ docker_compose_dir="~/.awx/awxcompose"
 # Required for Docker Compose Install if building the image on your own
 # Optional for Docker Compose Install if using Dockerhub or another prebuilt registry
 # Define if you want the image pushed to a registry. The container definition will also use these images
-docker_registry=https://index.docker.io/v2/
-docker_registry_repository=awx
-docker_registry_username=arjunkanniah
+#docker_registry=https://index.docker.io/v2/
+#docker_registry_repository=awx
+#docker_registry_username=arjunkanniah
 
 
 # Set pg_hostname if you have an external postgres server, otherwise
